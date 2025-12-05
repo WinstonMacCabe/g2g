@@ -1,17 +1,26 @@
 @import "tailwindcss";
 
+/* ===== Root color variables ===== */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* ===== Theme (Tailwind v4+ inline theme setup) ===== */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Default Tailwind vars */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* ✅ Custom fonts (now available as font-garamond and font-futura) */
+  --font-garamond: "EB Garamond", serif;
+  --font-futura: "Futura Cyrillic", sans-serif;
 }
 
+/* ===== Dark mode colors ===== */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +28,40 @@
   }
 }
 
+/* ===== Font-face definitions ===== */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('/EBGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('/EBGaramond-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cyrillic';
+  src: url('/FuturaCyrillicBook.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ===== Base body styling ===== */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* ===== Custom font utility classes ===== */
+.font-garamond {
+  font-family: var(--font-garamond);
+}
+
+.font-futura {
+  font-family: var(--font-futura);
 }

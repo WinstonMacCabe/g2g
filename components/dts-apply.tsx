@@ -36,7 +36,7 @@ export function DTSApply() {
               Ready to Begin Your Journey?
             </h2>
             <p className="text-lg text-muted-foreground/80 text-balance max-w-3xl mx-auto font-light leading-relaxed">
-              Take the first step toward transformation. Join thousands who have discovered their calling through DTS.
+              Take the first step toward transformation. Join thousands who have discovered their calling through School of Missions.
             </p>
           </div>
 
@@ -51,12 +51,12 @@ export function DTSApply() {
               {
                 step: "2",
                 title: "Interview Process",
-                description: "Participate in a personal interview to discuss your goals and readiness for DTS.",
+                description: "Participate in a personal interview to discuss your goals and readiness for School of Missions.",
               },
               {
                 step: "3",
                 title: "Secure Your Spot",
-                description: "Complete enrollment requirements and begin preparing for your DTS experience.",
+                description: "Complete enrollment requirements and begin preparing for your School of Missions experience.",
               },
             ].map((item, index) => (
               <div

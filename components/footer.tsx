@@ -53,8 +53,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/dts" className="text-muted-foreground hover:text-primary transition-colors">
-                  DTS Program
+                <Link href="/som" className="text-muted-foreground hover:text-primary transition-colors">
+                  School of Missions Program
                 </Link>
               </li>
               {/*}
@@ -81,8 +81,8 @@ export function Footer() {
             <h3 className="font-semibold text-foreground mb-4">Programs</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/dts" className="text-muted-foreground hover:text-primary transition-colors">
-                  Discipleship Training School
+                <Link href="/som" className="text-muted-foreground hover:text-primary transition-colors">
+                  School of Missions
                 </Link>
               </li>
               <li>{/*}

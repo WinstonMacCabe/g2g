@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
   {
-    question: "What are the age requirements for DTS?",
+    question: "What are the age requirements for School of Missions?",
     answer:
-      "DTS is open to anyone 18 years and older. There is no upper age limit - we welcome students of all ages who are ready to grow in their faith and serve God.",
+      "School of Missions is open to anyone 18 years and older. There is no upper age limit - we welcome students of all ages who are ready to grow in their faith and serve God.",
   },
   {
     question: "What if I can't afford the full program fee?",
@@ -20,7 +20,7 @@ const faqs = [
       "While we consider your preferences and calling, outreach locations are assigned based on ministry needs, team dynamics, and available opportunities. We have outreaches in over 100 countries worldwide.",
   },
   {
-    question: "What should I bring to DTS?",
+    question: "What should I bring to School of Missions?",
     answer:
       "You'll receive a detailed packing list upon acceptance. Generally, bring weather-appropriate clothing, personal items, Bible, notebook, and any required medications. Bedding and meals are provided.",
   },
@@ -30,9 +30,9 @@ const faqs = [
       "Yes, we have WiFi available in common areas and dormitories. However, we encourage students to limit screen time to focus on community, study, and personal growth during the program.",
   },
   {
-    question: "What happens after DTS graduation?",
+    question: "What happens after School of Missions graduation?",
     answer:
-      "Many graduates continue with advanced YWAM schools, join long-term missions, return to their home countries as missionaries, or pursue further education. DTS opens doors to a lifetime of ministry opportunities.",
+      "Many graduates continue with advanced schools, join long-term missions, return to their home countries as missionaries, or pursue further education. School of Missions opens doors to a lifetime of ministry opportunities.",
   },
   {
     question: "Are there any health or fitness requirements?",
@@ -77,7 +77,7 @@ export function DTSFAQs() {
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-muted-foreground/80 text-balance font-light">
-              Get answers to common questions about the DTS program
+              Get answers to common questions about the School of Missions program
             </p>
           </div>
 

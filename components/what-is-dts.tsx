@@ -5,9 +5,9 @@ export function WhatIsDTS() {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-balance mb-6">What is DTS?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-balance mb-6">What is School of Missions?</h2>
             <p className="text-xl text-muted-foreground text-balance max-w-3xl mx-auto">
-              Discipleship Training School is a foundational program designed to develop your relationship with God,
+              School of Missions is a foundational program designed to develop your relationship with God,
               build character, and equip you for a lifetime of service.
             </p>
           </div>
@@ -18,8 +18,8 @@ export function WhatIsDTS() {
               <h3 className="text-2xl font-semibold mb-6">Transform Your Life</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  DTS is more than education—it's transformation. Through intensive biblical study, practical ministry
-                  training, and cross-cultural outreach, you'll discover God's heart for the nations and your unique
+                  School of Missions is a six-month course that features intensive biblical study, practical ministry
+                  training, and cross-cultural outreach.  You'll discover God's heart for the nations and your unique
                   calling.
                 </p>
                 <p>

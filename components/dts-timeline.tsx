@@ -74,7 +74,7 @@ export function DTSTimeline() {
                     </div>
                     <div className="space-y-6">
                       <p className="text-muted-foreground/80 leading-relaxed font-light">
-                        Intensive classroom learning in Kona, Hawaii covering biblical foundations, character
+                        Intensive classroom learning in Halifax, Nova Scotia covering biblical foundations, character
                         development, and ministry preparation.
                       </p>
                       <ul className="space-y-4 text-sm text-muted-foreground/70">
@@ -112,7 +112,7 @@ export function DTSTimeline() {
                   <div className="group overflow-hidden rounded-3xl">
                     <img
                       src="/lecture.avif"
-                      alt="DTS Lecture Phase"
+                      alt="School of Missions Lecture Phase"
                       className="w-full h-80 object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                     />
                   </div>
@@ -181,7 +181,7 @@ export function DTSTimeline() {
                   <div className="group overflow-hidden rounded-3xl">
                     <img
                       src="/ev.avif"
-                      alt="DTS Outreach Phase"
+                      alt="School of Missions Outreach Phase"
                       className="w-full h-80 object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                     />
                   </div>

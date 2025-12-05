@@ -91,13 +91,13 @@ export async function POST(request: NextRequest) {
     const confirmationMailOptions = {
       from: process.env.SMTP_USER,
       to: data.email,
-      subject: "Application Received - September DTS Program",
+      subject: "Application Received - September School of Missions Program",
       html: `
         <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; color: #333333;">
           <!-- Removed purple gradient header, made it minimalistic -->
           <div style="padding: 40px 30px 30px 30px; border-bottom: 1px solid #e5e5e5;">
             <h1 style="color: #000000; margin: 0; font-size: 24px; font-weight: 400; letter-spacing: 0.5px;">
-              DTS Program
+              School of Missions Program
             </h1>
             <p style="color: #666666; margin: 8px 0 0 0; font-size: 14px;">
               Gather to Go
@@ -111,7 +111,7 @@ export async function POST(request: NextRequest) {
             </h2>
             
             <p style="color: #333333; line-height: 1.6; margin: 0 0 24px 0; font-size: 16px;">
-              Thank you for your interest in our <strong>September DTS Program</strong>. We've successfully received your interest form and are excited about the possibility of having you join us.
+              Thank you for your interest in our <strong>September School of Missions Program</strong>. We've successfully received your interest form and are excited about the possibility of having you join us.
             </p>
 
             <!-- Removed colored background and border, made it clean and minimal -->
@@ -132,7 +132,7 @@ export async function POST(request: NextRequest) {
 
             <p style="color: #333333; line-height: 1.6; margin: 32px 0 0 0; font-size: 16px;">
               Blessings,<br>
-              <strong style="color: #000000;">The DTS Team</strong>
+              <strong style="color: #000000;">The School of Missions Team</strong>
             </p>
           </div>
 
